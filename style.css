@@ -1,0 +1,23 @@
+<style>
+      img {
+        width: 175px;
+        border-radius: 25px;
+        float: left;
+        margin-left: 10px;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+
+      em {
+        color: blue;
+      }
+
+      h1 {
+        color: red;
+      }
+</style>
+
+
+   

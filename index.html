@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>con's site</title>
+    <style>
+      .username {
+        font-family: "consolas", sans-serif;
+        color: red;
+        font-size: xx-large;
+        text-decoration: underline;
+      }
+
+      em {
+        color: red;
+      }
+
+      h1 {
+        color: red;
+      }
+
+      nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px 8%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+
+      .back-video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -10;
+      }
+
+      @media (min-aspect-ratio: 16/9) {
+        .back-video {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      @media (max-aspect-ratio: 16/9) {
+        .back-video {
+          width: auto;
+          height: 100%;
+        }
+      }
+
+      .song {
+        color: fuchsia;
+        font-family: "consolas", sans-serif;
+        font-size: xx-large;
+        position: relative;
+        left: 1175px;
+        position: absolute;
+        top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="username">created by connor!#4187</p>
+
+    <p class="song">Now Playing: Juice WRLD - All Girls Are The Same</p>
+
+    <a
+      href="https://www.youtube.com/channel/UCYiI2ieKcCq3k34Nk_4Wm_g"
+      target="_blank"
+    >
+      <img
+        src="images/youtube.png"
+        alt="My Channel"
+        style="width: 95px; border-radius: 50px; height: 100px"
+      />
+    </a>
+
+    <a href="https://www.instagram.com/conr.hh/" target="_blank">
+      <img
+        src="images/instagram.png"
+        alt="My Instagram"
+        style="width: 95px; border-radius: 50px; height: 100px"
+      />
+    </a>
+
+    <a
+      href="https://open.spotify.com/user/viciousconnor?si=47eddc9e24e44dc1"
+      target="_blank"
+    >
+      <img src="images/spotify.png" alt="My Spotify" style="width: 125px" />
+    </a>
+
+    <video autoplay loop controls plays-inline class="back-video">
+      <source
+        src="videos/Juice WRLD - All Girls Are The Same (Directed by Cole Bennett).mp4"
+        type="video/mp4"
+      />
+    </video>
+  </body>
+</html>
